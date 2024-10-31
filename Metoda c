@@ -27,7 +27,7 @@ int MethodC(int n)
 int main() {
     int test_values[] = {1000, 10000, 100000, 1000000};
 
-    cout << left << setw(10) << "n" << setw(20) << "Liczba liczb pierwszych" << "Czas wykonania (s)" << endl;
+    cout << left << setw(10) << "n" << setw(20) << "Liczba liczb pierwszych" << " | " << "Czas wykonania (s)" << endl;
     cout << "-------------------------------------------------------------" << endl;
 
     for (int n : test_values) 
